@@ -62,7 +62,7 @@ export class Home extends React.Component {
 
 
   render() { 
-    const { posts, page, postsPerPage, allPosts, searchValue, textButtonLoadMorePosts } = this.state;
+    const { posts, page, postsPerPage, allPosts, searchValue } = this.state;
     const noMorePosts = page + postsPerPage >= allPosts.length;
     let TextButton = 'Load More Posts';
     !!noMorePosts && (
