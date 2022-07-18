@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Posts> should match snapshot 1`] = `
+<div
+  class="posts"
+>
+  <div
+    class="flex-row-reverse justify-center hover:drop-shadow-2xl transition-all duration-300"
+  >
+    <div
+      class="min-h-full w-96 flex flex-col-reverse md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg"
+    >
+      <div
+        class="p-6 flex flex-col justify-start"
+      >
+        <h5
+          class="text-gray-900 text-xl font-medium mb-2 hover:underline"
+        >
+          title 1
+        </h5>
+        <p
+          class="text-gray-900 text-xs mb-2"
+        >
+          body 1
+        </p>
+      </div>
+      <img
+        alt="title 1"
+        class="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg"
+        src="img/img1.png"
+      />
+    </div>
+  </div>
+  <div
+    class="flex-row-reverse justify-center hover:drop-shadow-2xl transition-all duration-300"
+  >
+    <div
+      class="min-h-full w-96 flex flex-col-reverse md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg"
+    >
+      <div
+        class="p-6 flex flex-col justify-start"
+      >
+        <h5
+          class="text-gray-900 text-xl font-medium mb-2 hover:underline"
+        >
+          title 2
+        </h5>
+        <p
+          class="text-gray-900 text-xs mb-2"
+        >
+          body 2
+        </p>
+      </div>
+      <img
+        alt="title 2"
+        class="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg"
+        src="img/img2.png"
+      />
+    </div>
+  </div>
+  <div
+    class="flex-row-reverse justify-center hover:drop-shadow-2xl transition-all duration-300"
+  >
+    <div
+      class="min-h-full w-96 flex flex-col-reverse md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg"
+    >
+      <div
+        class="p-6 flex flex-col justify-start"
+      >
+        <h5
+          class="text-gray-900 text-xl font-medium mb-2 hover:underline"
+        >
+          title 3
+        </h5>
+        <p
+          class="text-gray-900 text-xs mb-2"
+        >
+          body 3
+        </p>
+      </div>
+      <img
+        alt="title 3"
+        class="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg"
+        src="img/img3.png"
+      />
+    </div>
+  </div>
+</div>
+`;

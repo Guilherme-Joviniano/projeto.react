@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    /*Container Style*/
+    .container {
+        @apply relative max-w-7xl mx-auto mb-10 mt-10
+    }
+    /*Buttons Syles*/
+    .button-container {
+        @apply flex max-w-full items-center justify-center mt-10 mb-10         
+    }
+    .button {
+        @apply h-10 px-6 font-semibold rounded-md bg-black text-white
+    }
+    /*input style*/
+    .input-search {
+        @apply relative  mb-10 flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700
+               bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0
+               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+    }
+    
+}
